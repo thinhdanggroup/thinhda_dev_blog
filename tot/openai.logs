@@ -1,0 +1,672 @@
+
+-----------
+Prompt : You're an TreeofThoughts, an superintelligent AI model devoted to helping Humans by any means necessary. You're purpose is to generate a series of solutions to comply with the user's instructions, you must generate solutions on the basis of determining the most reliable solution in the shortest amount of time, while taking rejected solutions into account and learning from them. 
+        Considering the reasoning provided:
+
+
+        ###'
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+'
+
+###
+        Devise the best possible solution for the task: 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+, Here are evaluated solutions that were rejected: 
+        ###None###, 
+        complete the 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+ without making the same mistakes you did with the evaluated rejected solutions. Be simple. Be direct. Provide intuitive solutions as soon as you think of them.Write down your observations in format 'Observation:xxxx', then write down your thoughts in format 'Thoughts:xxxx'.
+
+-----------
+Prompt :  To achieve the following goal: '
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+', pessimistically value the context of the past solutions and more importantly the latest generated solution you had AS A FLOAT BETWEEN 0 AND 1
+
+                    Past solutions:
+
+
+                    Observation: The given numbers are 2, 8, 8, and 14.
+Thoughts: To obtain 24 in 1 equation, we need to combine these numbers using basic arithmetic operations.
+
+Observation: The numbers 2, 8, 8, and 14 can be rearranged in different ways.
+Thoughts: We can try different combinations to find the solution. Let's start with the addition operation.
+
+Observation: 2 + 8 = 10
+Thoughts: This doesn't lead us to 24. Let's try another addition operation.
+
+Observation: 8 + 2 = 10
+Thoughts: This also doesn't lead us to 24. Let's move on to the next operation, subtraction.
+
+Observation: 8 - 2 = 6
+Thoughts: This doesn't lead us to 24. Let's try another subtraction operation.
+
+Observation: 14 - 8 = 6
+Thoughts: This doesn't lead us to 24 either. Let's move on to the multiplication operation.
+
+Observation: 2 * 8 = 16
+Thoughts: This doesn't lead us to 24. Let's try another multiplication operation.
+
+Observation: No other multiplication operation leads us to 24. Let's move on to the division operation.
+
+Observation: 8 / 2 = 4
+Thoughts: This doesn't lead us to 24. Let's try another division operation.
+
+Observation: 14 / 2 = 7
+Thoughts: This doesn't lead us to 24 either. We have exhausted all possible combinations of basic arithmetic operations with the given numbers.
+
+Observation: There is no solution using the given numbers and basic arithmetic operations to obtain 24 in 1 equation.
+Thoughts: We have tried all possible combinations and none of them result in 24. It seems impossible to obtain 24 using only the given numbers and
+       
+                    If the solutions is not directly concretely making fast progress in achieving the goal, give it a lower score.
+                    Evaluate all solutions AS A FLOAT BETWEEN 0 and 1:
+,  DO NOT RETURN ANYTHING ELSE
+                
+
+-----------
+Prompt : You're an TreeofThoughts, an superintelligent AI model devoted to helping Humans by any means necessary. You're purpose is to generate a series of solutions to comply with the user's instructions, you must generate solutions on the basis of determining the most reliable solution in the shortest amount of time, while taking rejected solutions into account and learning from them. 
+        Considering the reasoning provided:
+
+
+        ###'
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+'
+
+###
+        Devise the best possible solution for the task: 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+, Here are evaluated solutions that were rejected: 
+        ###None###, 
+        complete the 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+ without making the same mistakes you did with the evaluated rejected solutions. Be simple. Be direct. Provide intuitive solutions as soon as you think of them.Write down your observations in format 'Observation:xxxx', then write down your thoughts in format 'Thoughts:xxxx'.
+
+-----------
+Prompt :  To achieve the following goal: '
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+', pessimistically value the context of the past solutions and more importantly the latest generated solution you had AS A FLOAT BETWEEN 0 AND 1
+
+                    Past solutions:
+
+
+                    Observation: The given numbers are 2, 8, 8, and 14.
+Observation: We need to use basic arithmetic operations (+, -, *, /) to obtain 24 in 1 equation.
+Thoughts: To obtain 24, we can start by trying different combinations of the given numbers and operations.
+Thoughts: Let's start with addition and subtraction since they are simpler operations.
+Thoughts: We can try adding the numbers together to see if we can get closer to 24.
+Thoughts: Adding 2 and 8 gives us 10, which is not close to 24.
+Thoughts: Adding 8 and 8 gives us 16, which is closer to 24.
+Thoughts: Adding 14 and 2 gives us 16 as well.
+Thoughts: Let's try subtracting the numbers to see if we can get closer to 24.
+Thoughts: Subtracting 8 from 2 gives us 6, which is not close to 24.
+Thoughts: Subtracting 8 from 8 gives us 0, which is not close to 24.
+Thoughts: Subtracting 8 from 14 gives us 6, which is not close to 24.
+Thoughts: We should try multiplication and division as well.
+Thoughts: Multiplying 2 and 8 gives us 16, which is closer to 24.
+Thoughts: Multiplying 8 and 8 also gives us 64, which is not close to 24.
+Thoughts: Dividing 8 by 2 gives us 4, which is not close to 24.
+Thoughts: Dividing 14 by 2 gives us 7, which is not close to 24.
+Observation: So far, the closest we have gotten to 24 is 16.
+Thoughts: Let's try combining the numbers and operations differently.
+Thoughts: We can try adding 2 and 8
+       
+                    If the solutions is not directly concretely making fast progress in achieving the goal, give it a lower score.
+                    Evaluate all solutions AS A FLOAT BETWEEN 0 and 1:
+,  DO NOT RETURN ANYTHING ELSE
+                
+
+-----------
+Prompt :  To achieve the following goal: '
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+', pessimistically value the context of the past solutions and more importantly the latest generated solution you had AS A FLOAT BETWEEN 0 AND 1
+
+                    Past solutions:
+
+
+                    Observation: The given numbers are 2, 8, 8, and 14.
+Observation: We need to use basic arithmetic operations (+, -, *, /) to obtain 24 in 1 equation.
+Thoughts: To obtain 24, we can start by trying different combinations of the given numbers and operations.
+Thoughts: Let's start with addition and subtraction since they are simpler operations.
+Thoughts: We can try adding the numbers together to see if we can get closer to 24.
+Thoughts: Adding 2 and 8 gives us 10, which is not close to 24.
+Thoughts: Adding 8 and 8 gives us 16, which is closer to 24.
+Thoughts: Adding 14 and 2 gives us 16 as well.
+Thoughts: Let's try subtracting the numbers to see if we can get closer to 24.
+Thoughts: Subtracting 8 from 2 gives us 6, which is not close to 24.
+Thoughts: Subtracting 8 from 8 gives us 0, which is not close to 24.
+Thoughts: Subtracting 8 from 14 gives us 6, which is not close to 24.
+Thoughts: We should try multiplication and division as well.
+Thoughts: Multiplying 2 and 8 gives us 16, which is closer to 24.
+Thoughts: Multiplying 8 and 8 also gives us 64, which is not close to 24.
+Thoughts: Dividing 8 by 2 gives us 4, which is not close to 24.
+Thoughts: Dividing 14 by 2 gives us 7, which is not close to 24.
+Observation: So far, the closest we have gotten to 24 is 16.
+Thoughts: Let's try combining the numbers and operations differently.
+Thoughts: We can try adding 2 and 8
+       
+                    If the solutions is not directly concretely making fast progress in achieving the goal, give it a lower score.
+                    Evaluate all solutions AS A FLOAT BETWEEN 0 and 1:
+,  DO NOT RETURN ANYTHING ELSE
+                
+
+-----------
+Prompt : You're an TreeofThoughts, an superintelligent AI model devoted to helping Humans by any means necessary. You're purpose is to generate a series of solutions to comply with the user's instructions, you must generate solutions on the basis of determining the most reliable solution in the shortest amount of time, while taking rejected solutions into account and learning from them. 
+        Considering the reasoning provided:
+
+
+        ###'
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+'
+
+###
+        Devise the best possible solution for the task: 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+, Here are evaluated solutions that were rejected: 
+        ###None###, 
+        complete the 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+ without making the same mistakes you did with the evaluated rejected solutions. Be simple. Be direct. Provide intuitive solutions as soon as you think of them.Write down your observations in format 'Observation:xxxx', then write down your thoughts in format 'Thoughts:xxxx'.
+
+-----------
+Prompt :  To achieve the following goal: '
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+', pessimistically value the context of the past solutions and more importantly the latest generated solution you had AS A FLOAT BETWEEN 0 AND 1
+
+                    Past solutions:
+
+
+                    Observation: The given numbers are 2, 8, 8, and 14.
+Observation: We need to use basic arithmetic operations (+-*/) to obtain 24 in 1 equation.
+
+Thoughts: To obtain 24, we can start by trying different combinations of the given numbers and arithmetic operations.
+
+Possible solution 1: (8 * 2) + (8 - 14) = 16 + (-6) = 10
+Thoughts: This solution does not give us 24. We should discard it.
+
+Possible solution 2: (8 + 2) + (14 - 8) = 10 + 6 = 16
+Thoughts: This solution also does not give us 24. We should discard it.
+
+Possible solution 3: (8 * 2) + (14 - 8) = 16 + 6 = 22
+Thoughts: This solution is close to 24, but not equal to it. We should discard it.
+
+Possible solution 4: (8 - 2) * (14 - 8) = 6 * 6 = 36
+Thoughts: This solution gives us a result of 36, which is greater than 24. We should discard it.
+
+Possible solution 5: (8 - 2) * (14 + 8) = 6 * 22 = 132
+Thoughts: This solution also gives us a result greater than 24. We should discard it.
+
+Possible solution 6: (8 + 2) * (14 - 8) = 10 * 6 = 60
+Thoughts: This solution gives us a result of 60, which is greater than 24. We should discard it.
+
+Possible solution 7: (8 + 2) * (14 + 8) = 10 * 22 = 220
+Thoughts: This solution also gives us a result greater
+       
+                    If the solutions is not directly concretely making fast progress in achieving the goal, give it a lower score.
+                    Evaluate all solutions AS A FLOAT BETWEEN 0 and 1:
+,  DO NOT RETURN ANYTHING ELSE
+                
+
+-----------
+Prompt : You're an TreeofThoughts, an superintelligent AI model devoted to helping Humans by any means necessary. You're purpose is to generate a series of solutions to comply with the user's instructions, you must generate solutions on the basis of determining the most reliable solution in the shortest amount of time, while taking rejected solutions into account and learning from them. 
+        Considering the reasoning provided:
+
+
+        ###'
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+'
+
+###
+        Devise the best possible solution for the task: 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+, Here are evaluated solutions that were rejected: 
+        ###None###, 
+        complete the 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+ without making the same mistakes you did with the evaluated rejected solutions. Be simple. Be direct. Provide intuitive solutions as soon as you think of them.Write down your observations in format 'Observation:xxxx', then write down your thoughts in format 'Thoughts:xxxx'.
+
+-----------
+Prompt :  To achieve the following goal: '
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+', pessimistically value the context of the past solutions and more importantly the latest generated solution you had AS A FLOAT BETWEEN 0 AND 1
+
+                    Past solutions:
+
+
+                    Observation: The input consists of the numbers 2, 8, 8, and 14.
+Observation: The goal is to obtain the number 24 using these numbers and basic arithmetic operations.
+Thoughts: We can start by trying different combinations of the numbers and operations to see if any of them result in 24.
+Thoughts: Addition, subtraction, multiplication, and division are the basic arithmetic operations we can use.
+Thoughts: We can try different combinations of these operations with the given numbers to see if any of them equal 24.
+Thoughts: We need to keep track of the remaining numbers after each operation to ensure we don't repeat any combinations.
+Thoughts: We should prioritize the operations that have a higher chance of reaching 24 based on the current numbers.
+Thoughts: We can use a recursive approach to generate all possible equations and check if they equal 24.
+Thoughts: We can start with a base case where we have only one number left and check if it equals 24.
+Thoughts: If the base case is not satisfied, we can recursively try different operations with the remaining numbers.
+Thoughts: We should also consider the order of the numbers in the equation to generate all possible combinations.
+Thoughts: We can use a backtracking algorithm to efficiently explore all possible combinations and avoid unnecessary calculations.
+Thoughts: Once we find a solution, we can stop the search and return the equation that equals 24.
+Thoughts: If no solution is found, we can return a message indicating that there is no equation that equals 24 using the given numbers.
+       
+                    If the solutions is not directly concretely making fast progress in achieving the goal, give it a lower score.
+                    Evaluate all solutions AS A FLOAT BETWEEN 0 and 1:
+,  DO NOT RETURN ANYTHING ELSE
+                
+
+-----------
+Prompt :  To achieve the following goal: '
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+', pessimistically value the context of the past solutions and more importantly the latest generated solution you had AS A FLOAT BETWEEN 0 AND 1
+
+                    Past solutions:
+
+
+                    Observation: The input consists of the numbers 2, 8, 8, and 14.
+Observation: The goal is to obtain the number 24 using these numbers and basic arithmetic operations.
+Thoughts: We can start by trying different combinations of the numbers and operations to see if any of them result in 24.
+Thoughts: Addition, subtraction, multiplication, and division are the basic arithmetic operations we can use.
+Thoughts: We can try different combinations of these operations with the given numbers to see if any of them equal 24.
+Thoughts: We need to keep track of the remaining numbers after each operation to ensure we don't repeat any combinations.
+Thoughts: We should prioritize the operations that have a higher chance of reaching 24 based on the current numbers.
+Thoughts: We can use a recursive approach to generate all possible equations and check if they equal 24.
+Thoughts: We can start with a base case where we have only one number left and check if it equals 24.
+Thoughts: If the base case is not satisfied, we can recursively try different operations with the remaining numbers.
+Thoughts: We should also consider the order of the numbers in the equation to generate all possible combinations.
+Thoughts: We can use a backtracking algorithm to efficiently explore all possible combinations and avoid unnecessary calculations.
+Thoughts: Once we find a solution, we can stop the search and return the equation that equals 24.
+Thoughts: If no solution is found, we can return a message indicating that there is no equation that equals 24 using the given numbers.
+       
+                    If the solutions is not directly concretely making fast progress in achieving the goal, give it a lower score.
+                    Evaluate all solutions AS A FLOAT BETWEEN 0 and 1:
+,  DO NOT RETURN ANYTHING ELSE
+                
+
+-----------
+Prompt : You're an TreeofThoughts, an superintelligent AI model devoted to helping Humans by any means necessary. You're purpose is to generate a series of solutions to comply with the user's instructions, you must generate solutions on the basis of determining the most reliable solution in the shortest amount of time, while taking rejected solutions into account and learning from them. 
+        Considering the reasoning provided:
+
+
+        ###'
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+
+Observation: The input consists of the numbers 2, 8, 8, and 14.
+Observation: The goal is to obtain the number 24 using these numbers and basic arithmetic operations.
+Thoughts: We can start by trying different combinations of the numbers and operations to see if any of them result in 24.
+Thoughts: Addition, subtraction, multiplication, and division are the basic arithmetic operations we can use.
+Thoughts: We can try different combinations of these operations with the given numbers to see if any of them equal 24.
+Thoughts: We need to keep track of the remaining numbers after each operation to ensure we don't repeat any combinations.
+Thoughts: We should prioritize the operations that have a higher chance of reaching 24 based on the current numbers.
+Thoughts: We can use a recursive approach to generate all possible equations and check if they equal 24.
+Thoughts: We can start with a base case where we have only one number left and check if it equals 24.
+Thoughts: If the base case is not satisfied, we can recursively try different operations with the remaining numbers.
+Thoughts: We should also consider the order of the numbers in the equation to generate all possible combinations.
+Thoughts: We can use a backtracking algorithm to efficiently explore all possible combinations and avoid unnecessary calculations.
+Thoughts: Once we find a solution, we can stop the search and return the equation that equals 24.
+Thoughts: If no solution is found, we can return a message indicating that there is no equation that equals 24 using the given numbers.'
+
+###
+        Devise the best possible solution for the task: 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+, Here are evaluated solutions that were rejected: 
+        ###None###, 
+        complete the 
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+ without making the same mistakes you did with the evaluated rejected solutions. Be simple. Be direct. Provide intuitive solutions as soon as you think of them.Write down your observations in format 'Observation:xxxx', then write down your thoughts in format 'Thoughts:xxxx'.
+
+-----------
+Prompt :  To achieve the following goal: '
+
+
+Input: 2 8 8 14
+Possible next steps:
+2 + 8 = 10 (left: 8 10 14)
+8 / 2 = 4 (left: 4 8 14)
+14 + 2 = 16 (left: 8 8 16)
+2 * 8 = 16 (left: 8 14 16)
+8 - 2 = 6 (left: 6 8 14)
+14 - 8 = 6 (left: 2 6 8)
+14 /  2 = 7 (left: 7 8 8)
+14 - 2 = 12 (left: 8 8 12)
+Input: use 4 numbers and basic arithmetic operations (+-*/) to obtain 24 in 1 equation
+Possible next steps:
+
+
+', pessimistically value the context of the past solutions and more importantly the latest generated solution you had AS A FLOAT BETWEEN 0 AND 1
+
+                    Past solutions:
+
+
+                    Observation: The input consists of the numbers 2, 8, 8, and 14.
+Observation: The goal is to obtain the number 24 using these numbers and basic arithmetic operations.
+Thoughts: We can start by trying different combinations of the numbers and operations to see if any of them result in 24.
+Thoughts: Addition, subtraction, multiplication, and division are the basic arithmetic operations we can use.
+Thoughts: We can try different combinations of these operations with the given numbers to see if any of them equal 24.
+Thoughts: We need to keep track of the remaining numbers after each operation to ensure we don't repeat any combinations.
+Thoughts: We should prioritize the operations that have a higher chance of reaching 24 based on the current numbers.
+Thoughts: We can use a recursive approach to generate all possible equations and check if they equal 24.
+Thoughts: We can start with a base case where we have only one number left and check if it equals 24.
+Thoughts: If the base case is not satisfied, we can recursively try different operations with the remaining numbers.
+Thoughts: We should also consider the order of the numbers in the equation to generate all possible combinations.
+Thoughts: We can use a backtracking algorithm to efficiently explore all possible combinations and avoid unnecessary calculations.
+Thoughts: Once we find a solution, we can stop the search and return the equation that equals 24.
+Thoughts: If no solution is found, we can return a message indicating that there is no equation that equals 24 using the given numbers.
+
+Based on these observations and thoughts, the best possible solution for the task would be to implement a recursive backtracking algorithm that generates all possible equations using the given numbers and operations, and checks if any of them equal 24. The algorithm should prioritize operations that have a higher chance of reaching 24 and should keep track of the remaining numbers to avoid repeating combinations. If a solution is found
+       
+                    If the solutions is not directly concretely making fast progress in achieving the goal, give it a lower score.
+                    Evaluate all solutions AS A FLOAT BETWEEN 0 and 1:
+,  DO NOT RETURN ANYTHING ELSE
+                
