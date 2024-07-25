@@ -199,15 +199,15 @@ class SourceCollector:
             id = page["id"]
             title = page["title"]
             link = confluence_url + "wiki/spaces/" + space + "/pages/" + page["id"]
-            body = self.transform_html_to_text(page["body"]["storage"]["value"])
-            page_content = "\n*" + title + "*\n" + body  # markdown for <h1>
+            # body = self.transform_html_to_text(page["body"]["storage"]["value"])
+            # page_content = "\n*" + title + "*\n" + body  # markdown for <h1>
 
             # Add to list
             page_data = ConfluencePage(
                 id=id,
                 space=space,
                 title=title,
-                page_content=page_content,
+                page_content=link,
                 link=link,
                 num_tokens=0,
             )
@@ -382,9 +382,9 @@ class SourceCollector:
 
 if __name__ == "__main__":
     config = {
-        "folder": "./tmp/vouchers",
-        "space": "STG",
-        "page": "2661580871",
+        "folder": "./tmp/financial",
+        "space": "FT",
+        "page": "",
     }
     source_collector = SourceCollector(root_folder=config["folder"], limit=0)
     # source_collector.run(["~712020b2523477db2449d488573ca22cf8cf0e"])
