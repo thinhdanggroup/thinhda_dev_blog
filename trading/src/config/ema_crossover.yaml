@@ -1,0 +1,11 @@
+NAME: 'EMA Crossover'
+MODULE: 'ema_crossover'
+CLASS: 'EMAcrossOver'
+INTERVAL: '1h'
+PARAMETERS:
+  slow_ema: 50
+  fast_ema: 21
+  RR: 2.0
+
+# Define pairs to monitor
+WATCHLIST: ['VND']

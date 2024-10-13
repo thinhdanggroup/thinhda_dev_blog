@@ -1,0 +1,10 @@
+CLASS: LongEMAcrossOver
+INTERVAL: 1d
+MODULE: long_ema_crossover
+NAME: EMA Crossover
+PARAMETERS:
+  RR: 1
+  fast_ema: 10
+  slow_ema: 25
+WATCHLIST:
+- E1VFVN30

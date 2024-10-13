@@ -1,0 +1,43 @@
+NAME: 'EMA Crossover'
+MODULE: 'long_ema_crossover'
+CLASS: 'LongEMAcrossOver'
+INTERVAL: '1d'
+PARAMETERS:
+  slow_ema: 25
+  fast_ema: 10
+  RR: 1
+
+# Define pairs to monitor
+WATCHLIST: [
+  #  "ACB",
+  #  "BCM",
+  #  "BID",
+  #  "BVH",
+  #  "CTG",
+  #  "FPT",
+  #  "GAS",
+  #  "GVR",
+  #  "HDB",
+    "HPG",
+  #  "MBB",
+  #  "MSN",
+  #  "MWG",
+  #  "PLX",
+  #  "POW",
+  #  "SAB",
+  #  "SHB",
+  #  "SSB",
+  #  "SSI",
+  #  "STB",
+  #  "TCB",
+  #  "TPB",
+  #  "VCB",
+  #  "VHM",
+  #  "VIB",
+  #  "VIC",
+  #  "VJC",
+  #  "VNM",
+  #  "VPB",
+  #  "VRE",
+#  "E1VFVN30"
+]
