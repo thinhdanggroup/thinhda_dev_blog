@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "thinhda-dev-blog"
+version = "0.1.0"
+description = ""
+authors = ["thinh-dang-ts <thinh.dang2@trustingsocial.com>"]
+readme = "README.md"
+packages = [{include = "thinhda_dev_blog"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+datadog = "^0.49.1"
+pandas = "^2.2.3"
+memory-profiler = "^0.61.0"
+guppy3 = "^3.1.4.post1"
+cython = "^3.0.11"
+autotrader = {extras = ["ccxt", "yfinance"], version = "^1.1.2"}
+realtimestt = "^0.3.0"
+celery = "^5.4.0"
+redis = "^5.2.1"
+crawl4ai = "^0.4.247"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
