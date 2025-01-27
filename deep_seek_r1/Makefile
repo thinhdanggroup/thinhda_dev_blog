@@ -1,9 +1,9 @@
 
 start:
-	@docker run -p 3000:3000 --env-file .env -e HF_TOKEN=HF_TOKEN -v db:/data ghcr.io/huggingface/chat-ui-db:latest
+	@docker-compose up -d
+
+stop:
+	@docker-compose down
 
 install:
-	@ollama run deepseek-r1:7b
-
-my-ip:
-	@ipconfig getifaddr en0
+	@docker exec -it deep_seek_r1-ollama-service-1 ollama pull deepseek-r1:7b
