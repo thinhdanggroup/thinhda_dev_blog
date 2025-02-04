@@ -22,7 +22,7 @@ def set_review_settings():
     get_settings().set("pr_reviewer.enable_auto_approval", False)
 
 def main():
-    pr_url = "https://github.com/tsocial/collin_telephony_service/pull/152"   
+    pr_url = "https://github.com/tsocial/collin_telephony_service/pull/136"   
     if len(sys.argv) < 2:
         raise ValueError("No command provided. Please provide a command as the first argument.")
     command = sys.argv[1]
