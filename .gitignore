@@ -164,3 +164,11 @@ cython_debug/
 trading/output/*
 trading/price_data/*
 trading/vnquant/*
+*.csv
+*.html
+generate_image/output.png
+deepseek_unofficial_api/downloaded_files/driver_fixing.lock
+deepseek_unofficial_api/downloaded_files/pyautogui.lock
+audio_mixing_demo/samples/sample1.wav
+audio_mixing_demo/samples/sample2.wav
+audio_mixing_demo/samples/sample3.wav

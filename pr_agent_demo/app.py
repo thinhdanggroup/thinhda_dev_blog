@@ -7,6 +7,10 @@ import sys
 
 load_dotenv()
 
+def read_file(file_path):
+    with open(file_path, "r") as file:
+        return file.read()
+
 def set_review_settings():
     get_settings().set("pr_reviewer.require_score_review", True)
     get_settings().set("pr_reviewer.require_tests_review", True)
@@ -20,11 +24,14 @@ def set_review_settings():
     get_settings().set("pr_reviewer.enable_intro_text", True)
     get_settings().set("pr_reviewer.enable_help_text", False)
     get_settings().set("pr_reviewer.enable_auto_approval", False)
+    get_settings().set("pr_review_prompt.system", read_file("settings/pr_reviewer_prompt.txt"))
+    
 
 def main():
-    pr_url = "https://github.com/tsocial/collin_telephony_service/pull/136"   
-    if len(sys.argv) < 2:
-        raise ValueError("No command provided. Please provide a command as the first argument.")
+    if len(sys.argv) < 3:
+        raise ValueError("No PR URL provided. Please provide a PR URL as the second argument.")
+    
+    pr_url = sys.argv[2]
     command = sys.argv[1]
     
     # Setting the configurations

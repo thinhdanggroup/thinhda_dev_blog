@@ -20,6 +20,7 @@ redis = "^5.2.1"
 crawl4ai = "^0.4.247"
 chat-deepseek-api = "0.1.2"
 langchain-core = "^0.3.31"
+seleniumbase = "^4.34.4"
 
 
 [build-system]
